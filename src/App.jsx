@@ -219,8 +219,9 @@ export default function App() {
 
               <div className="w-64 h-72 sm:w-72 sm:h-80 rounded-2xl overflow-hidden bg-gradient-to-b from-[#2e1d47] to-[#130b24] flex flex-col items-center justify-center relative border border-pink-500/20">
                 <img 
-                  src="public/tiara.jpeg"                  alt="Tiara Profile" 
-                  className="w-full h-full object-cover filter contrast-105"
+                src="/tiara.jpeg" 
+                alt="Tiara Profile" 
+                className="w-full h-full object-cover object-top filter contrast-105"
                 />
                 <div className="absolute bottom-3 left-3 right-3 bg-[#0d0a17]/90 backdrop-blur-md p-2.5 rounded-xl border border-pink-500/30 flex items-center justify-between text-xs">
                   <span className="text-pink-300 font-semibold flex items-center gap-1.5">
