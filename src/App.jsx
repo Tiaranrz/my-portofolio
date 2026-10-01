@@ -358,11 +358,6 @@ export default function App() {
                   </div>
 
                   <div className="flex items-center gap-3 pt-2 border-t border-pink-500/10">
-                    <button 
-                      className="flex-1 py-2 rounded-xl bg-pink-500/10 hover:bg-pink-500/20 text-pink-300 font-semibold text-xs flex items-center justify-center gap-1.5 transition"
-                    >
-                      <ExternalLink className="w-3.5 h-3.5" /> Project Detail
-                    </button>
                     <a
                       href={project.demoUrl}
                       target="_blank"
@@ -387,7 +382,7 @@ export default function App() {
             ))}
           </div>
         </section>
-
+        
         {/* JOURNEY & EXPERIENCE SECTION */}
         <section id="journey" className="space-y-6">
           <div className="text-center space-y-2">
