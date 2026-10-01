@@ -74,8 +74,8 @@ export default function App() {
       role: 'QA Engineer (Academic Project)',
       desc: 'Merancang Test Plan & WBS, mengotomasi 13 regression test suites menggunakan Katalon Studio di Chrome dengan 100% pass rate untuk autentikasi, CRUD, pencarian, dan transaksi.',
       tags: ['Katalon Studio', 'Automated UI', 'Regression Testing', 'Chrome Webdriver'],
-      demoUrl: '#',
-      repoUrl: '#'
+      demoUrl: 'https://canva.link/yjeihsmmbbc3vdx', // TEMPEL LINK CANVA PROYEK 1 DI SINI
+      repoUrl: 'https://github.com/Tiaranrz'
     },
     {
       id: 2,
@@ -84,8 +84,8 @@ export default function App() {
       role: 'Backend Developer Intern',
       desc: 'Membangun core business logic dan RESTful API menggunakan Laravel (PHP) dalam arsitektur multi-tenant. Mengelola skema MySQL berisolasi tinggi dan optimasi query data.',
       tags: ['Laravel', 'REST API', 'MySQL Multi-Tenant', 'Postman'],
-      demoUrl: '#',
-      repoUrl: '#'
+      demoUrl: 'https://canva.link/your-demo-link', // TEMPEL LINK DEMO PROYEK 2 DI SINI
+      repoUrl: 'https://github.com/Tiaranrz' // TEMPEL LINK REPO PROYEK 2 DI SINI
     },
     {
       id: 3,
@@ -94,8 +94,8 @@ export default function App() {
       role: 'QA Specialist (Academic Project)',
       desc: 'Menyusun skenario dan 20+ manual test cases mendalam (Preconditions, Steps, Test Data). Mengeksekusi manual black-box testing serta mendokumentasikan defect reproduction.',
       tags: ['Manual Testing', 'Black-Box', 'Test Cases', 'Bug Reporting'],
-      demoUrl: '#',
-      repoUrl: '#'
+      demoUrl: 'https://canva.link/7a843zocc52qnyt',
+      repoUrl: 'https://github.com/Tiaranrz'
     },
     {
       id: 4,
@@ -105,7 +105,7 @@ export default function App() {
       desc: 'Menganalisis alur administrasi kepegawaian pemerintah, merancang arsitektur database relasional, mengembangkan modul inti berbasis Laravel, dan menyusun technical manual.',
       tags: ['Laravel', 'MySQL', 'System Analysis', 'UAT Documentation'],
       demoUrl: '#',
-      repoUrl: '#'
+      repoUrl: 'https://github.com/Tiaranrz'
     }
   ];
 
