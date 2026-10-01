@@ -363,11 +363,20 @@ export default function App() {
                     >
                       <ExternalLink className="w-3.5 h-3.5" /> Project Detail
                     </button>
-                    <a 
-                      href="https://github.com" 
+                    <a
+                      href={project.demoUrl}
                       target="_blank"
                       rel="noreferrer"
-                      className="p-2 rounded-xl bg-[#0d0a17] hover:bg-[#231a3d] text-pink-200 border border-[#2e204d] transition"
+                      className="flex-1 py-2 px-4 rounded-xl bg-pink-500/20 hover:bg-pink-500/30 text-pink-300 text-xs font-semibold flex items-center justify-center gap-2 border border-pink-500/30 transition-all text-center cursor-pointer"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" /> 
+                      Project Detail
+                    </a>
+                    <a 
+                      href={project.repoUrl || "https://github.com/Tiaranrz"} 
+                      target="_blank"
+                      rel="noreferrer"
+                      className="p-2 rounded-xl bg-[#0d0a17] hover:bg-[#231a3d] text-pink-200 border border-[#2e204d] transition cursor-pointer"
                       title="GitHub Repository"
                     >
                       <GithubIcon className="w-4 h-4" />
