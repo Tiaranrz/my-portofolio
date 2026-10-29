@@ -203,7 +203,7 @@ export default function App() {
               
               {/* Tombol View CV Berjajar Rapi */}
               <a 
-                href="/public/CV _ QA.pdf" 
+                href="/CV _ QA.pdf" 
                 target="_blank" 
                 rel="noreferrer"
                 className="px-5 py-3 rounded-2xl bg-pink-500/20 hover:bg-pink-500/30 text-pink-300 border border-pink-500/30 font-semibold text-sm flex items-center gap-2 hover:-translate-y-0.5 transition cursor-pointer"
