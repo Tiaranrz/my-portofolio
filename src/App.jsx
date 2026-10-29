@@ -16,7 +16,8 @@ import {
   CheckCircle2,
   Phone,
   FileCheck,
-  Award
+  Award,
+  FileText
 } from 'lucide-react';
 
 // Custom SVG Icon untuk GitHub
@@ -184,7 +185,7 @@ export default function App() {
               <span className="text-purple-300 font-semibold"> Backend Web Developer (Laravel)</span>. Berpengalaman dalam pengujian fungsionalitas, validasi REST API, dan perancangan database relasional MySQL.
             </p>
 
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
+            <div className="flex flex-wrap items-center gap-3 pt-2">
               <a 
                 href="#projects" 
                 className="px-6 py-3 rounded-2xl bg-gradient-to-r from-[#ff4d8d] to-[#9333ea] text-white font-bold text-sm shadow-lg shadow-pink-500/25 hover:shadow-pink-500/40 hover:-translate-y-0.5 transition"
@@ -195,9 +196,19 @@ export default function App() {
                 href="https://www.linkedin.com/in/siti-tiara-nur-aziza-901294229/" 
                 target="_blank" 
                 rel="noreferrer"
-                className="px-6 py-3 rounded-2xl bg-[#18122a] border border-[#2e204d] hover:border-pink-500/40 text-pink-200 font-semibold text-sm flex items-center gap-2 hover:-translate-y-0.5 transition"
+                className="px-5 py-3 rounded-2xl bg-[#18122a] border border-[#2e204d] hover:border-pink-500/40 text-pink-200 font-semibold text-sm flex items-center gap-2 hover:-translate-y-0.5 transition"
               >
-                <LinkedinIcon className="w-4 h-4 text-[#0077b5]" /> LinkedIn Profile
+                <LinkedinIcon className="w-4 h-4 text-[#0077b5]" /> LinkedIn
+              </a>
+              
+              {/* Tombol View CV Berjajar Rapi */}
+              <a 
+                href="/public/CV _ QA.pdf" 
+                target="_blank" 
+                rel="noreferrer"
+                className="px-5 py-3 rounded-2xl bg-pink-500/20 hover:bg-pink-500/30 text-pink-300 border border-pink-500/30 font-semibold text-sm flex items-center gap-2 hover:-translate-y-0.5 transition cursor-pointer"
+              >
+                <FileText className="w-4 h-4 text-pink-400" /> View CV
               </a>
             </div>
           </div>
